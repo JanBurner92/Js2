@@ -1,0 +1,32 @@
+<html>
+<head>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js" ></script>
+<script type="text/javascript" >
+function farb_wechsel(farbe){
+if (farbe == 1){ 
+jQuery('#body').css({'background':'red'});
+
+}
+if (farbe == 2){
+jQuery('#body').css({'background':'blue'});
+
+
+}
+if (farbe == 3){
+jQuery('#body').css({'background':'yellow'});
+
+
+}
+}
+</script>
+</head>
+<body id='body'>
+<input type="button" value="Rot" onClick="farb_wechsel('1');" >
+<br> 
+<input type="button" value="Blau" onClick="farb_wechsel('2');" >
+<br> 
+<input type="button" value="Gelb"  onClick="farb_wechsel('3');" >
+ 
+</body>
+</html>
+
